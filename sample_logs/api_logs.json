@@ -1,0 +1,10 @@
+{"timestamp":"2024-08-24T10:15:00Z","level":"INFO","service":"api-gateway","message":"Gateway started on port 3000","metadata":{"version":"1.2.3","environment":"production"}}
+{"timestamp":"2024-08-24T10:15:30Z","level":"INFO","service":"user-service","message":"User login successful","metadata":{"user_id":"12345","ip_address":"192.168.1.100","user_agent":"Mozilla/5.0"}}
+{"timestamp":"2024-08-24T10:16:45Z","level":"ERROR","service":"payment-service","message":"Payment processing failed","metadata":{"transaction_id":"tx_98765","amount":99.99,"currency":"USD","error":"timeout"}}
+{"timestamp":"2024-08-24T10:17:00Z","level":"WARN","service":"database","message":"Connection pool exhausted","metadata":{"active_connections":50,"max_connections":50,"wait_time_ms":1500}}
+{"timestamp":"2024-08-24T10:17:15Z","level":"INFO","service":"notification-service","message":"Email sent successfully","metadata":{"recipient":"user@example.com","template":"welcome","delivery_time_ms":250}}
+{"timestamp":"2024-08-24T10:18:30Z","level":"ERROR","service":"file-storage","message":"Failed to upload file","metadata":{"file_name":"document.pdf","file_size_mb":15.2,"error":"insufficient_storage"}}
+{"timestamp":"2024-08-24T10:19:00Z","level":"INFO","service":"auth-service","message":"Token refreshed","metadata":{"user_id":"12345","token_expiry":"2024-08-24T18:19:00Z"}}
+{"timestamp":"2024-08-24T10:20:15Z","level":"WARN","service":"api-gateway","message":"Rate limit warning","metadata":{"client_ip":"192.168.1.100","current_rate":45,"limit":50,"window":"1min"}}
+{"timestamp":"2024-08-24T10:21:30Z","level":"ERROR","service":"external-api","message":"Third-party service unavailable","metadata":{"service":"weather-api","status_code":503,"retry_count":3}}
+{"timestamp":"2024-08-24T10:22:00Z","level":"INFO","service":"scheduler","message":"Cron job executed","metadata":{"job_name":"cleanup_temp_files","execution_time_ms":1200,"files_deleted":247}}

@@ -1,0 +1,178 @@
+# Environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Dependencies
+node_modules/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+pip-log.txt
+pip-delete-this-directory.txt
+.tox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.log
+.git
+.mypy_cache
+.pytest_cache
+.hypothesis/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Frontend
+frontend/dist/
+frontend/build/
+frontend/node_modules/
+*.tsbuildinfo
+
+# Backend
+backend/uploads/
+backend/*.egg-info/
+backend/dist/
+backend/build/
+
+# Python
+venv/
+.venv/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# pyenv
+.python-version
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Runtime data
+pids/
+*.pid
+*.seed
+*.pid.lock
+
+# Coverage directory used by tools like istanbul
+coverage/
+
+# nyc test coverage
+.nyc_output
+
+# Dependency directories
+jspm_packages/
+
+# Optional npm cache directory
+.npm
+
+# Optional REPL history
+.node_repl_history
+
+# Output of 'npm pack'
+*.tgz
+
+# Yarn Integrity file
+.yarn-integrity
+
+# parcel-bundler cache (https://parceljs.org/)
+.cache
+.parcel-cache
+
+# next.js build output
+.next
+
+# nuxt.js build output
+.nuxt
+
+# vuepress build output
+.vuepress/dist
+
+# Serverless directories
+.serverless
+
+# FuseBox cache
+.fusebox/
+
+# DynamoDB Local files
+.dynamodb/
+
+# Local database files
+*.db
+*.sqlite
+*.sqlite3
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+*.temp
+*.bak
+nohup.out
+ollama.log
+
+# Test files (exclude temp test files, keep official tests)
+test_*.py
+*_test.py
+example_*.py
+
+# Distribution packages
+*.tar.gz
+*.zip
+log-analyzer-*.tar.gz
+
+# Session data (keep structure but not the pickle files)
+backend/uploads/*.log
+backend/uploads/*.txt
+backend/uploads/*.json
+backend/uploads/sessions/*.pkl
+
+# Claude Code (AI development environment)
+.claude/
+
+# Internal documentation files
+TECHNICAL_DOCUMENTATION.md
+UPLOAD_FUNCTIONALITY.md
+DEVELOPMENT.md
+DISTRIBUTION.md
+DEPLOYMENT.md
+
+# Lock files (optional - some prefer to include these)
+package-lock.json
+yarn.lock
+
+# IDE/Editor files
+*.code-workspace
+.vscode/settings.json
+
+# macOS specific
+**/.DS_Store

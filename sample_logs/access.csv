@@ -1,0 +1,11 @@
+timestamp,ip_address,method,path,status_code,response_time_ms,user_agent,bytes_sent
+2024-08-24 10:15:00,192.168.1.100,GET,/api/users,200,45,"Mozilla/5.0 (Windows NT 10.0; Win64; x64)",1024
+2024-08-24 10:15:15,192.168.1.101,POST,/api/auth/login,200,120,"Chrome/91.0.4472.124",512
+2024-08-24 10:15:30,192.168.1.102,GET,/api/products,200,78,"Safari/14.1.1",2048
+2024-08-24 10:16:00,192.168.1.103,POST,/api/orders,201,250,"Firefox/89.0",1536
+2024-08-24 10:16:15,192.168.1.100,GET,/api/users/12345,200,32,"Mozilla/5.0 (Windows NT 10.0; Win64; x64)",768
+2024-08-24 10:16:45,192.168.1.104,DELETE,/api/orders/999,404,15,"Postman/8.0",256
+2024-08-24 10:17:00,192.168.1.105,PUT,/api/users/67890,500,1500,"curl/7.68.0",128
+2024-08-24 10:17:30,192.168.1.106,GET,/api/health,200,5,"Prometheus/2.28.0",64
+2024-08-24 10:18:00,192.168.1.107,POST,/api/files/upload,413,200,"Chrome/91.0.4472.124",0
+2024-08-24 10:18:30,192.168.1.108,GET,/api/reports,403,25,"Safari/14.1.1",512

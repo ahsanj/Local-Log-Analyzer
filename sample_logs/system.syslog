@@ -1,0 +1,12 @@
+Aug 24 10:15:00 web-server-01 systemd[1]: Starting nginx.service...
+Aug 24 10:15:01 web-server-01 nginx[1234]: nginx: configuration file /etc/nginx/nginx.conf test is successful
+Aug 24 10:15:02 web-server-01 systemd[1]: Started nginx.service
+Aug 24 10:16:15 web-server-01 kernel: [12345.678900] Out of memory: Kill process 5678 (java) score 900 or sacrifice child
+Aug 24 10:16:16 web-server-01 kernel: [12345.789012] Killed process 5678 (java) total-vm:8388608kB, anon-rss:7340032kB, file-rss:0kB
+Aug 24 10:17:30 db-server-01 mysqld[2468]: [ERROR] InnoDB: Cannot allocate memory for the buffer pool
+Aug 24 10:17:31 db-server-01 mysqld[2468]: [ERROR] Plugin 'InnoDB' registration as a STORAGE ENGINE failed
+Aug 24 10:18:00 app-server-01 java[3579]: Exception in thread "main" java.lang.OutOfMemoryError: Java heap space
+Aug 24 10:18:15 lb-server-01 haproxy[4680]: Server backend/app1 is DOWN, reason: Layer4 connection problem, info: "Connection refused"
+Aug 24 10:19:00 monitoring-01 prometheus[5791]: level=error ts=2024-08-24T10:19:00.123Z caller=main.go:123 msg="error creating web handler" err="listen tcp :9090: bind: address already in use"
+Aug 24 10:20:30 web-server-01 nginx[1234]: 192.168.1.100 - - [24/Aug/2024:10:20:30 +0000] "GET /api/health HTTP/1.1" 200 2 "-" "curl/7.68.0"
+Aug 24 10:21:45 cache-server-01 redis[6802]: [1234] 24 Aug 10:21:45.123 # WARNING: The TCP backlog setting of 511 cannot be enforced because /proc/sys/net/core/somaxconn is set to the lower value of 128
